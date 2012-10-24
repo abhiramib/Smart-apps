@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Hello World Title !</title>
+  </head>
+  
+  <body>
+    <h1>Hello World !</h1>
+
+    <script src='http://sample-apps.smartplatforms.org/framework/smart/scripts/smart-api-client.js'></script>
+
+    <script>
+      SMART.ready(function(){
+         var message = "Hello Earthling !"
+         SMART.$("#message").text(message);
+         document.getElementById('patientName').innerHTML = SMART.record.full_name;
+         });
+     </script>
+
+   </body>
+
+</html>

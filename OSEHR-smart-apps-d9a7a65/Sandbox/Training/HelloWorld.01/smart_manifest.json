@@ -1,0 +1,13 @@
+{
+    "name" : "Hello World 01 !",
+    "description" : "Example Teaching App",
+    "author" : "Luis Ibanez, OSEHRA",
+    "id" : "hello-world-01@osehra.org",
+    "version" : ".1a",
+
+    "mode" : "ui",
+    "scope" : "record",
+
+    "index" : "https://raw.github.com/OSEHR/smart-apps/master/Sandbox/Training/HelloWorld.01/index.html",
+    "icon" :  "https://raw.github.com/OSEHR/smart-apps/master/Sandbox/Training/HelloWorld.01/icon.png"
+}
